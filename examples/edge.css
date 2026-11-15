@@ -1,0 +1,21 @@
+/* Braces inside strings and comments are not rules,
+   and a rule that only looks empty is not flagged. */
+.icon::before {
+  content: "}";
+}
+
+.note::after {
+  content: "/* not a comment */";
+}
+
+/* A rule that holds a comment plus one real declaration
+   is a live rule, not an empty one. */
+.alert {
+  /* the colour was picked last week */
+  color: red;
+}
+
+@font-face {
+  font-family: "Example";
+  src: url("example.woff2");
+}

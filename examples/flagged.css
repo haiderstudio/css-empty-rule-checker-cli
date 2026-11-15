@@ -1,0 +1,21 @@
+/* Two empty rules and one rule whose declarations are
+   all commented out. */
+body {
+  margin: 0;
+}
+
+.sidebar {
+}
+
+.widget {
+  /* color: red; */
+  /* background: blue; */
+}
+
+footer {
+}
+
+@media (max-width: 600px) {
+  .banner {
+  }
+}
